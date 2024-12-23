@@ -66,7 +66,7 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16 xl:px-16">
         
-      <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>
+      <Canvas camera={{ position: [6, 6, 6], fov: 25 }}>
             <Suspense fallback={null}>
               <ambientLight intensity={0.5} />
               <directionalLight position={[3, 2, 1]} />

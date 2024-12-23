@@ -6,7 +6,7 @@ function Model() {
   return (
     <primitive
       object={gltf.scene}
-      scale={[2, 2, 2]} // Adjust the scale values here
+      scale={[2, 2, 2]} 
       position={[0, 0, 4]}    // Optional: Adjust position if needed
       rotation={[2, Math.PI / 2, 1]} // Optional: Adjust rotation
     />

@@ -71,7 +71,7 @@ const Line = styled.img`
 `;
 
 const Subtitle = styled.h2`
-  color: #da4ea2;
+  color: #f433dc;
 `;
 
 const Desc = styled.p`
@@ -144,7 +144,7 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Deneth Chathuranga",
+                "Chathuranga",
                 1000,
                 "Web Developer",
                 1000,
@@ -154,7 +154,7 @@ const HeroSection = () => {
                 1000,
               ]}
               wrapper="span"
-              speed={50}
+              speed={0}
               repeat={Infinity}
             />
           </h1>
@@ -164,7 +164,7 @@ const HeroSection = () => {
           </p>
           <div>
             <Link
-              href="/#contact"
+              href="https://denethc545@gmail.com"
               className="inline-block w-full px-6 py-3 mr-4 text-white rounded-full sm:w-fit bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200"
             >
               Hire Me
@@ -195,7 +195,7 @@ const HeroSection = () => {
                     <directionalLight position={[3, 2, 1]} />
                     <Sphere args={[1, 100, 200]} scale={2.4}>
                       <MeshDistortMaterial
-                        color="#3d1c55"
+                        color="#ec60ff"
                         attach="material"
                         distort={0.5}
                         speed={2}
